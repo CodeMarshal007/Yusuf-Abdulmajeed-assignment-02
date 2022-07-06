@@ -50,7 +50,7 @@ assignment.countEvenNumbers = countEvenNumbers;
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
     return arrayOfNumbers.map((item) => {
-      return Math.trunc((item * 1.8) + 32)
+       return Math.trunc((item * 1.8) + 32)
     });
 }
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
